@@ -1,0 +1,36 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 25px 20px;
+  border-radius: 3px 3px 0 0;
+  text-transform: uppercase; /* ////////added! */
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.main-nav-links { /* ////////added */
+  margin: 0 10px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  margin: 0 3px;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+  text-transform: none; /* ////////added */
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
